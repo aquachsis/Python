@@ -1,5 +1,8 @@
 from PyPDF2 import PdfFileWriter, PdfFileReader
 
+# Creates individual PDFs from each page
+# Names the inidivudal PDF the employee number + page number
+
 src_filename = 'source.pdf'
 # employee number immediately follows ' Number12345 '
 split_text_by = ' Number12345 '
