@@ -25,3 +25,15 @@ for i in range(2):
         pdf_writer.write(f)
 
 open_src.close()
+
+
+
+# 1. Instantiate Object
+# 2. Add page
+# IF EEthis == EElast Then
+#     1. Add page
+# IF EEthis != EE Last Then
+#     1. Write PDF
+#     2. Instantiate Object
+#     3. Add page
+# 3. Write PDF
